@@ -98,7 +98,7 @@ function App() {
                 deleteTodo={(todoIndex) => {
                   setDoneTodos(deleteTodo(doneTodos, todoIndex));
                 }}
-                toggleTodoTask={(todoIndex) => { }}
+                toggleTodoTask={(todoIndex) => { console.log(todoIndex)}}
                 titleName={"Done"}
               />
           </div>
